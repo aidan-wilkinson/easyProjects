@@ -1,0 +1,65 @@
+body {
+  height: 100vh ;
+  background: url(boxing-background.jpg) no-repeat center center/cover ;
+  display: flex ;
+  justify-content: center;
+  align-items: center ;
+  font-family: arial ;
+}
+
+.container {
+  width: 70% ;
+  height: 250px ;
+  background-color: white;
+  border-radius: 30px ;
+  box-shadow: 0 0 5px ;
+}
+
+#timer {
+  width: 100% ;
+  font-size: 72px ;
+  text-align: center;
+  margin: 0px auto ;
+  padding: 35px 0px ;
+}
+
+.buttons {
+  text-align: center;
+}
+
+.buttons #startStpBtn:hover {
+  opacity: 0.8 ;
+  transition: .2s ;
+}
+
+.buttons #resetBtn:hover {
+  opacity: 0.8 ;
+  transition: .2s ;
+}
+
+.buttons #resetBtn:active {
+  opacity: 0.6 ;
+  transition: .2s ;
+}
+
+button {
+  margin: 0 10px ;
+  border: none ;
+  cursor: pointer ;
+}
+
+button i {
+  font-size: 2rem ;
+  padding: 10px ;
+  color: white ;
+  width: 40px;
+  border-radius: 10px ;
+}
+
+#play {
+  background-color: green;
+}
+
+#reset {
+  background-color: red ;
+}
